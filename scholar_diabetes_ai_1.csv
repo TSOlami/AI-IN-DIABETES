@@ -1,0 +1,157 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Snippet","Abstract"
+"Federated multimodal AI for precision-equitable diabetes care","https://scispace.com/paper/SeoUyLpF2eYJ","","","","B Bai
+X Liu
+H Li","","https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1678047/pdf","… federated learning (FL) and multimodal artificial intelligence (… frameworks leverage cross-modal alignment and co-learning … diabetic retinopathy screening, time-series analysis of CGM …",""
+"Leveraging Deep Learning and Multi-Modal Data for Early Prediction and Personalized Management of Type 2 Diabetes","https://scispace.com/paper/leveraging-deep-learning-and-multi-modal-data-for-early-shuvamxp7j36","","","","Shashi Bhushan Singh -
+Arjun Singh","10.36948/ijfmr.2024.v06i04.26096","https://pdfs.semanticscholar.org/6835/ad6aa701c0236628775de1795ad9a4e4a904.pdf","… , lifestyle data, and continuous glucose monitoring. The model … The application of artificial intelligence (AI) and deep learning … levels, detect diabetic retinopathy from retinal images, and …","Type 2 diabetes mellitus (T2DM) is a chronic metabolic disorder affecting millions worldwide, with significant health and economic implications. Early prediction and personalized management are crucial for improving patient outcomes and reducing healthcare costs. This study presents a novel approach leveraging deep learning techniques and multi-modal data analysis for the early prediction and personalized management of T2DM. We developed a deep learning model that integrates diverse data types, including electronic health records, genetic information, lifestyle data, and continuous glucose monitoring. The model was trained on a large dataset of 50,000 patients, including both diabetic and non-diabetic individuals, with a 5-year follow-up period. Our results demonstrate that the deep learning model achieves a sensitivity of 89% and specificity of 92% in predicting T2DM onset up to 3 years before clinical diagnosis, outperforming traditional risk assessment tools. Furthermore, the model generates personalized management plans, including tailored lifestyle recommendations and medication schedules, which led to a 25% improvement in glycemic control compared to standard care in a randomized controlled trial of 1,000 patients. This study highlights the potential of AI-driven, multi-modal approaches in revolutionizing diabetes care. By enabling earlier interventions and more personalized management strategies, this approach could significantly improve patient outcomes and reduce the burden of T2DM on healthcare systems. Future work will focus on external validation, long-term follow-up studies, and integration into clinical workflows."
+"Multimodal Approach for Diabetic Retinopathy Detection Using Deep Learning and Clinical Data Fusion","https://scispace.com/paper/multimodal-approach-for-diabetic-retinopathy-detection-using-jvwualaqnoxq","","","","Karthikeyan S
+Selva Sangeeth S
+Sreeja GG
+Sivasanjeev R
+Srimathi M","10.1109/icces63552.2024.10859974","","… in artificial intelligence, especially deep learning, show great promise for detecting DR from retinal images. The training model… 1) Dataset Composition: We utilize high-resolution fundus …","A novel multimodal diabetic retinopathy (DR) diagnosis method is proposed that addresses the most common and time-consuming limitations of traditional diagnosis methods. This approach combines deep learning techniques with medical data fusion to integrate retinal images with important measurements such as glucose levels, blood pressure, and diabetes duration. The model uses convolutional neural networks (CNN) for high-level image analysis and multilayer perceptrons (MLP) to process medical data, and achieves fusion through integration. Compared with image-only models, this principle improves performance metrics including optimization, recall, and classification accuracy. Through the use of visualization and therapy, this approach provides large-scale and flexible solutions for many clinical environments. This study demonstrates the various aspects of multidisciplinary work in the diagnosis of DR, paving the way for better patient outcomes and setting a new standard for integration into expert clinical practice in medicine. Future work will focus on expanding the data, developing the translational model and exploring real-world applications."
+"Deep Learning for Diabetic Retinopathy Detection: A Review of Multimodal Data Fusion Approaches","https://scispace.com/paper/deep-learning-for-diabetic-retinopathy-detection-a-review-of-1bidhjb5msjz","2025","Journal Article","","Kartina Diah Kesuma Wardhani
+Shahreen Kasim
+Rohayanti Hassan
+Rahmat Hidayat
+Khaled Mahmud Sujon","10.21203/rs.3.rs-7196434/v1","https://scispace.compdf/deep-learning-for-diabetic-retinopathy-detection-a-review-of-1bidhjb5msjz.pdf","… Diabetic retinopathy (DR) is a diabetes-induced eye disease that affects the blood vessels of the retina… requires interpreting diverse information such as retinal imaging and clinical data. …","<title>Abstract</title> Diabetic retinopathy (DR) is a diabetes-induced eye disease that affects the blood vessels of the retina, and a lack of proper DR detection could result in the loss of vision. Although deep learning (DL) has successfully analyzed single-modality medical data, DR diagnosis often requires interpreting diverse information such as retinal imaging and clinical data. Multimodal data fusion has the potential to accommodate robust and complementary information between these sources for more accurate diagnostic decisions. However, DR detection using deep learning-based multimodal fusion is still challenging and underdeveloped. This review investigates recent advances in applying DL techniques to multimodal DR detection , focusing on model architecture, modality combinations, fusion strategies, and performance metrics. Among these architectures, convolutional neural networks (CNNs) are the most popular, and the fusion of fundus images with OCT or 1 EHR data is the most common pairing. Early and joint fusion strategies dominate, while model performance is typically assessed using accuracy, AUC, sensitivity, and F1-score. Despite promising progress, the field still faces challenges including modality heterogeneity, lack of standardized multimodal datasets, and limited model interpretability. Emerging trends point toward hybrid architecture, attention mechanisms, and self-supervised learning as potential solutions. This review highlights current developments and outlines future directions to support the design of scalable, generalizable, and clinically applicable multimodal DL systems for DR detection. "
+"Detection of Center-Involved Diabetic Macular Edema with Visual Impairment using Multimodal Artificial Intelligence Algorithms","https://scispace.com/paper/detection-of-center-involved-diabetic-macular-edema-with-z51mtfjvcat6","2025","Journal Article","Ophthalmology Retina","Tien‐En Tan
+Yi Pin Ng
+Claire T. Calhoun
+Jia Quan Chaung
+Jie Yao
+Yan Wang
+Liangli Zhen
+Xinxing Xu
+Yong Liu
+Rick Siow Mong Goh
+Gabriele Piccoli
+Stela Vujosevic
+Gavin Siew Wei Tan
+Jennifer K. Sun
+Daniel SW Ting","10.1016/j.oret.2025.04.016","","… Diabetic retinopathy (DR) is one of the leading causes of … Artificial intelligence (AI) and deep learning algorithms (DLAs… of diabetic patients with or without CI-DME, who had CFP, OCT, …","To develop artificial intelligence (AI) models for automated detection of center-involved diabetic macular edema (CI-DME) with visual impairment using color fundus photographs (CFP) and optical coherence tomography (OCT) scans. AI effort using pooled data from multi-center studies. Datasets consisted of diabetic participants with or without CI-DME, who had CFP, OCT, and best corrected visual acuity (BCVA) obtained after manifest refraction. The development dataset was from DRCR Retina Network clinical trials, external testing dataset 1 was from the Singapore National Eye Centre, Singapore, and external testing dataset 2 was from the Eye Clinic, IRCCS MultiMedica, Milan, Italy. AI models were trained to detect CI-DME, visual impairment (BCVA 20/32 or worse), and CI-DME with visual impairment, using CFPs alone, OCTs alone, and both CFPs and OCTs together (multimodal). Data from 1,007 eyes were used to train and validate the algorithms, and data from 448 eyes were used for testing. Area under the receiver operating characteristic curve (AUC) values. In the primary testing set, the CFP model, OCT model, and multimodal model had AUCs of 0.848 (95% CI 0.787-0.900), 0.913 (95% CI 0.870-0.947), and 0.939 (95% CI 0.906-0.964), respectively, for detection of CI-DME with visual impairment. In external testing dataset 1, the CFP, OCT, and multimodal models had AUCs of 0.756 (95% CI 0.624-0.870), 0.949 (95% CI 0.889-0.989), and 0.917 (95% CI 0.837-0.979), respectively, for detection of CI-DME with visual impairment. In external testing dataset 2, the CFP, OCT, and multimodal models had AUCs of 0.881 (95% CI 0.822-0.940), 0.828 (95% CI 0.749-0.905), and 0.907 (95% CI 0.852-0.952), respectively, for detection of CI-DME with visual impairment. The AI models showed good diagnostic performance for detection of CI-DME with visual impairment. The multimodal (CFP and OCT) model did not offer additional benefit over the OCT model alone. If validated in prospective studies, these AI models could potentially help to improve triage and detection of patients who require prompt treatment. "
+"A panoramic perspective: application prospects and outlook of multimodal artificial intelligence in the management of diabetic retinopathy","https://scispace.com/paper/dBQgdMekr78J","","","","C Liu
+Y Duan
+H Wu
+J Duan","","https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1724001/pdf","… Against this background, the rise of artificial intelligence (AI), particularly deep learning, … multimodal imaging features of diabetic retinopathy. (A) Ultra-widefield color fundus photography …",""
+"Deep Learning-based Method in Multimodal Data for Diabetic Retinopathy Detection.","https://scispace.com/paper/deep-learning-based-method-in-multimodal-data-for-diabetic-4ze0rarc8ljd","2024","Journal Article","International Journal on Advanced Science, Engineering and Information Technology","Kartina Diah Kesuma Wardhani
+Shahreen Kasim
+Aldo Erianda
+Rohayanti Hassan","10.18517/ijaseit.14.5.11677","","… Unimodal learning may overlook capturing these multimodal … of diabetic retinopathy (DR) by fusing retinal imaging … , the retinal imaging used in this study includes fundus retinal …","Diabetic retinopathy (DR) is a complex condition, and incorporating information from multiple sources, such as patient history, laboratory results, or genetic data, can enhance understanding. An ophthalmologist or an automated system can identify DR through manual examination. The automatic detection of diabetic retinopathy has become a preferred choice for patients and healthcare providers due to its cost-effectiveness and time efficiency. The novelty of this research lies in developing a model for predicting diabetic retinopathy using multimodal data fusion, incorporating fundus retinal images, optical coherence tomography (OCT), and electronic health records (EHR) through an early fusion technique implemented in a Long Short-Term Memory (LSTM) network. Our model, which utilizes an early fusion of multimodal data with Local Binary Pattern (LBP), has demonstrated the best performance, achieving an AUC value of 0.99. This high accuracy indicates that integrating information from various data sources can significantly improve the capability of the model in detecting both positive and negative cases of diabetic retinopathy, instilling confidence in the reliability of our findings."
+"A multimodal transformer system for noninvasive diabetic nephropathy diagnosis via retinal imaging","https://scispace.com/paper/a-multimodal-transformer-system-for-noninvasive-diabetic-1jx7fn4kguat","2025","Journal Article","npj digital medicine","Zheyi Dong
+Xiaofei Wang
+Sai Pan
+Taohan Weng
+Xiaoniao Chen
+Shuangshuang Jiang
+Ying Li
+Zonghua Wang
+Xueying Cao
+Qian Wang
+Pu Chen
+Lai Jiang
+Guangyan Cai
+Li Zhang
+Yong Wang
+Jin‐Kui Yang
+Yani He
+Hongli Lin
+Jie Wu
+Li Tang
+Jianhui Zhou
+Shengxi Li
+Zhaohui Li
+Yibing Fu
+Xiang Yu
+Yanqiu Geng
+Yingjie Zhang
+Liqiang Wang
+Mai Xu
+Xiangmei Chen","10.1038/s41746-024-01393-1","https://www.nature.com/articles/s41746-024-01393-1.pdf","… , such as diabetes history and diabetic retinopathy (DR), and … has not been well explored in artificial intelligence (AI)-based … supervised learning manner, with multimodal input of fundus …",""
+"Novel artificial intelligence algorithms for diabetic retinopathy and diabetic macular edema","https://scispace.com/paper/novel-artificial-intelligence-algorithms-for-diabetic-3nndl62ekr","2024","Journal Article","Eye and vision","Jie Yao
+Joshua Lim
+Gilbert Lim
+Jasmine Chiat Ling Ong
+Yuhe Ke
+Ting Fang Tan
+Tien‐En Tan
+Stela Vujosevic
+Daniel Shu Wei Ting","10.1186/s40662-024-00389-y","https://link.springer.com/content/pdf/10.1186/s40662-024-00389-y.pdf","… diabetic retinopathy"", ""diabetic macular edema"", ""fundus photograph"", ""optical coherence tomography"", ""artificial intelligence"", ""machine learning"", and ""deep learning… that multi-modal AI …","Abstract Background Diabetic retinopathy (DR) and diabetic macular edema (DME) are major causes of visual impairment that challenge global vision health. New strategies are needed to tackle these growing global health problems, and the integration of artificial intelligence (AI) into ophthalmology has the potential to revolutionize DR and DME management to meet these challenges. Main text This review discusses the latest AI-driven methodologies in the context of DR and DME in terms of disease identification, patient-specific disease profiling, and short-term and long-term management. This includes current screening and diagnostic systems and their real-world implementation, lesion detection and analysis, disease progression prediction, and treatment response models. It also highlights the technical advancements that have been made in these areas. Despite these advancements, there are obstacles to the widespread adoption of these technologies in clinical settings, including regulatory and privacy concerns, the need for extensive validation, and integration with existing healthcare systems. We also explore the disparity between the potential of AI models and their actual effectiveness in real-world applications. Conclusion AI has the potential to revolutionize the management of DR and DME, offering more efficient and precise tools for healthcare professionals. However, overcoming challenges in deployment, regulatory compliance, and patient privacy is essential for these technologies to realize their full potential. Future research should aim to bridge the gap between technological innovation and clinical application, ensuring AI tools integrate seamlessly into healthcare workflows to enhance patient outcomes. "
+"Advances and prospects of multi-modal ophthalmic artificial intelligence based on deep learning: a review","https://scispace.com/paper/advances-and-prospects-of-multi-modal-ophthalmic-artificial-1mbh4bdtm5vs","2024","Journal Article","Eye and vision","Shaopan Wang
+Xin He
+Zhongquan Jian
+Jie Li
+Changsheng Xu
+Yuguang Chen
+Yuwen Liu
+Han Chen
+Caihong Huang
+Jiaoyue Hu
+Zuguo Liu","10.1186/s40662-024-00405-1","https://link.springer.com/content/pdf/10.1186/s40662-024-00405-1.pdf","… Diabetic retinopathy (DR) is a common complication of diabetes, and if not promptly … glaucoma and various fundus diseases, multi-modal learning exhibits notable advantages …","Abstract Background In recent years, ophthalmology has emerged as a new frontier in medical artificial intelligence (AI) with multi-modal AI in ophthalmology garnering significant attention across interdisciplinary research. This integration of various types and data models holds paramount importance as it enables the provision of detailed and precise information for diagnosing eye and vision diseases. By leveraging multi-modal ophthalmology AI techniques, clinicians can enhance the accuracy and efficiency of diagnoses, and thus reduce the risks associated with misdiagnosis and oversight while also enabling more precise management of eye and vision health. However, the widespread adoption of multi-modal ophthalmology poses significant challenges. Main text In this review, we first summarize comprehensively the concept of modalities in the field of ophthalmology, the forms of fusion between modalities, and the progress of multi-modal ophthalmic AI technology. Finally, we discuss the challenges of current multi-modal AI technology applications in ophthalmology and future feasible research directions. Conclusion In the field of ophthalmic AI, evidence suggests that when utilizing multi-modal data, deep learning-based multi-modal AI technology exhibits excellent diagnostic efficacy in assisting the diagnosis of various ophthalmic diseases. Particularly, in the current era marked by the proliferation of large-scale models, multi-modal techniques represent the most promising and advantageous solution for addressing the diagnosis of various ophthalmic diseases from a comprehensive perspective. However, it must be acknowledged that there are still numerous challenges associated with the application of multi-modal techniques in ophthalmic AI before they can be effectively employed in the clinical setting. "
+"A multimodal imaging–based deep learning model for detecting treatment-requiring retinal vascular diseases: model development and validation study","https://scispace.com/paper/a-multimodal-imaging-based-deep-learning-model-for-detecting-53wjl2gzyc","2021","Journal Article","JMIR medical informatics","Eugene Yu-Chuan Kang
+Ling Yeung
+Yi-Lun Lee
+Cheng-Hsiu Wu
+Cheng-Hsiu Wu
+Shu-Yen Peng
+Shu-Yen Peng
+Yueh-Peng Chen
+Quan-Ze Gao
+Chihung Lin
+Chang-Fu Kuo
+Chang-Fu Kuo
+Chi-Chun Lai
+Chi-Chun Lai","10.2196/28868","https://scispace.com/pdf/a-multimodal-imaging-based-deep-learning-model-for-detecting-53wjl2gzyc.pdf","… In ophthalmology, deep learning—an artificial intelligence technique—can … fundus images for identifying diabetic retinopathy, AMD, and glaucoma [7], a deep learning model using OCT …","Background: Retinal vascular diseases, including diabetic macular edema (DME), neovascular age-related macular degeneration (nAMD), myopic choroidal neovascularization (mCNV), and branch and central retinal vein occlusion (BRVO/CRVO), are considered vision-threatening eye diseases. However, accurate diagnosis depends on multimodal imaging and the expertise of retinal ophthalmologists.
+Objective: The aim of this study was to develop a deep learning model to detect treatment-requiring retinal vascular diseases using multimodal imaging.
+Methods: This retrospective study enrolled participants with multimodal ophthalmic imaging data from 3 hospitals in Taiwan from 2013 to 2019. Eye-related images were used, including those obtained through retinal fundus photography, optical coherence tomography (OCT), and fluorescein angiography with or without indocyanine green angiography (FA/ICGA). A deep learning model was constructed for detecting DME, nAMD, mCNV, BRVO, and CRVO and identifying treatment-requiring diseases. Model performance was evaluated and is presented as the area under the curve (AUC) for each receiver operating characteristic curve.
+Results: A total of 2992 eyes of 2185 patients were studied, with 239, 1209, 1008, 211, 189, and 136 eyes in the control, DME, nAMD, mCNV, BRVO, and CRVO groups, respectively. Among them, 1898 eyes required treatment. The eyes were divided into training, validation, and testing groups in a 5:1:1 ratio. In total, 5117 retinal fundus photos, 9316 OCT images, and 20,922 FA/ICGA images were used. The AUCs for detecting mCNV, DME, nAMD, BRVO, and CRVO were 0.996, 0.995, 0.990, 0.959, and 0.988, respectively. The AUC for detecting treatment-requiring diseases was 0.969. From the heat maps, we observed that the model could identify retinal vascular diseases.
+Conclusions: Our study developed a deep learning model to detect retinal diseases using multimodal ophthalmic imaging. Furthermore, the model demonstrated good performance in detecting treatment-requiring retinal diseases."
+"Revolutionizing diabetic maculopathy detection with MobileNet, GAN-enhanced imaging, and Graph Neural Networks: A multimodal AI approach for precision …","https://scispace.com/paper/kJMEjAAAwtkJ","","","","NA Kumar
+T Srinadh
+I Ioannou","","","… fundus images, which may delay diagnosis and treatment. This study proposes a modified MobileNet deep learning … data and Optical Coherence Tomography (OCT) images. Synthetic …",""
+"Graph-Aware Multimodal Deep Learning for Classification of Diabetic Retinopathy Images","https://scispace.com/paper/graph-aware-multimodal-deep-learning-for-classification-of-14ho47iu58rs","","Journal Article","IEEE Access","Amina Zedadra
+Ouarda Zedadra
+Mahmoud Yassine Salah-Salah
+Antonio Guerrieri","10.1109/access.2025.3564529","https://ieeexplore.ieee.org/iel8/6287639/6514899/10976726.pdf","… Artificial Intelligence in medical imaging enhances diagnosis … ophthalmology such as diabetic retinopathy and glaucoma [1]… diabetic retinopathy stages from the Messidor dataset fundus …",""
+"Leveraging multimodal deep learning architecture with retina lesion information to detect diabetic retinopathy","https://scispace.com/paper/leveraging-multimodal-deep-learning-architecture-with-retina-2g28c21pen","2020","Journal Article","Translational Vision Science & Technology","Vincent S. Tseng
+Ching Long Chen
+Chang Min Liang
+Ming Cheng Tai
+Jung Tzu Liu
+Po Yi Wu
+Ming Shan Deng
+Ya Wen Lee
+Teng Yi Huang
+Yi-Hao Chen","10.1167/TVST.9.2.41","","… for diabetic retinopathy (DR). Methods: We used 26,699 fundus images of 17,834 diabetic … Thus, there is an urgent and critical need for an artificial intelligence–based approach to …","Purpose To improve disease severity classification from fundus images using a hybrid architecture with symptom awareness for diabetic retinopathy (DR). Methods We used 26,699 fundus images of 17,834 diabetic patients from three Taiwanese hospitals collected in 2007 to 2018 for DR severity classification. Thirty-seven ophthalmologists verified the images using lesion annotation and severity classification as the ground truth. Two deep learning fusion architectures were proposed: late fusion, which combines lesion and severity classification models in parallel using a postprocessing procedure, and two-stage early fusion, which combines lesion detection and classification models sequentially and mimics the decision-making process of ophthalmologists. Messidor-2 was used with 1748 images to evaluate and benchmark the performance of the architecture. The primary evaluation metrics were classification accuracy, weighted κ statistic, and area under the receiver operating characteristic curve (AUC). Results For hospital data, a hybrid architecture achieved a good detection rate, with accuracy and weighted κ of 84.29% and 84.01%, respectively, for five-class DR grading. It also classified the images of early stage DR more accurately than conventional algorithms. The Messidor-2 model achieved an AUC of 97.09% in referral DR detection compared to AUC of 85% to 99% for state-of-the-art algorithms that learned from a larger database. Conclusions Our hybrid architectures strengthened and extracted characteristics from DR images, while improving the performance of DR grading, thereby increasing the robustness and confidence of the architectures for general use. Translational Relevance The proposed fusion architectures can enable faster and more accurate diagnosis of various DR pathologies than that obtained in current manual clinical practice."
+"Temporal Integrative Machine Learning for Early Detection of Diabetic Retinopathy Using Fundus Imaging and Electronic Health Records","https://scispace.com/paper/temporal-integrative-machine-learning-for-early-detection-of-rvv70hvmdkxe","2025","Journal Article","IEEE Journal of Biomedical and Health Informatics","Shvat Messica
+Seffi Cohen
+Aviel Hadad
+Michal Gordon
+Or Katz
+Dan Presil
+Noa Dagan
+Erez Tsumi
+Lior Rokach","10.1109/jbhi.2025.3578197","","… our temporal multi-modal model, with the retina images dataset … Artificial intelligence for diabetic retinopathy screening: a … of deep learning algorithms for diabetic retinopathy screening. …",""
+"Single-modality and joint fusion deep learning for diabetic retinopathy diagnosis","https://scispace.com/paper/single-modality-and-joint-fusion-deep-learning-for-diabetic-src2d9mq","2022","Journal Article","Scientific African","Sara El-Ateif
+Ali Idri","10.1016/j.sciaf.2022.e01280","","The current study evaluated and compared single-modality and joint fusion deep learning approaches for automatic binary classification of diabetic retinopathy (DR) using seven …",""
+"Generation of a multimodal atlas of type 2 diabetes for artificial intelligence (ai-readi): Purpose and design","https://scispace.com/paper/WwDeZM-35V8J","","","","D Matthies
+J Owen
+G McGwin","","","… a dataset facilitating artificial intelligence/machine learning (AI/… impacted in T2DM, including retinal imaging, vision, cognition, … new insights into T2DM, including diabetic eye disease. …",""
+"Machine Learning Prediction of Cardiovascular Risk in Type 1 Diabetes Mellitus Using Radiomics Features from Multimodal Retinal Images","https://scispace.com/paper/machine-learning-prediction-of-cardiovascular-risk-in-type-1-akgcqmg5r2by","2025","Journal Article","Ophthalmology science","Ariadna Toha-Dalmau
+Josep Rosin'es-Fonoll
+Enrique Romero
+F. Mazzanti
+Ruben Martín-Pinardel
+Sonia Marias-Perez
+Carolina Bernal-Morales
+Rafael Castro-Domínguez
+Andrea Mendez
+Emilio Ortega
+Irene Vinagre
+Marga Giménez
+Alfredo Vellido
+Javier Zarranz-Ventura","10.48550/arxiv.2504.02868","https://scispace.compdf/machine-learning-prediction-of-cardiovascular-risk-in-type-1-akgcqmg5r2by.pdf","… a machine learning (ML) algorithm capable of determining cardiovascular (CV) risk in multimodal retinal images from patients with type 1 diabetes … from color fundus photographs (CFP), …","Purpose To develop a machine learning (ML) algorithm capable of determining cardiovascular (CV) risk in multimodal retinal images from patients with type 1 diabetes mellitus (T1DM), distinguishing between moderate, high, and very high-risk levels. Design Cross-sectional analysis of a retinal image data set from a previous prospective OCT angiography (OCTA) study (ClinicalTrials.gov NCT03422965). Participants Patients with T1DM included in the progenitor study. Methods Radiomic features were extracted from color fundus photographs (CFPs), OCT, and OCTA images, and ML models were trained using these features either individually or combined with clinical data (demographics and systemic data, OCT + OCTA commercial software metrics, ocular data, blood data). Different data combinations were tested to determine the CV risk stages, defined according to international classifications. Main Outcome Measures Area under the receiver operating characteristic curve mean and standard deviation for each ML model and each data combination. Results A data set of 597 eyes (359 individuals) was analyzed. Models trained only with the radiomic features achieved area under the curve (AUC) values of (0.79 ± 0.03) to identify moderate risk cases from high and very high-risk cases, and (0.73 ± 0.07) for distinguishing between high and very high-risk cases. The addition of clinical variables improved all AUC values, obtaining (0.99 ± 0.01) for identifying moderate cases, and (0.95 ± 0.02) for differentiating between high and very high-risk cases. For very high CV risk, radiomics combined with OCT + OCTA metrics and ocular data achieved an AUC of (0.89 ± 0.02) without systemic data input. The performance of the models was similar in unilateral and bilateral eye image data sets. Conclusions Radiomic features obtained from retinal images are helpful to discriminate and classify CV risk labels, differentiating risk categories. The addition of demographics and systemic data combined with ocular data differentiate high from very high CV risk cases, and interestingly OCT + OCTA metrics with ocular data identify very high CV risk cases without systemic data input. These results reflect the potential of this oculomics approach for CV risk assessment. Financial Disclosure(s) Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article."
+"Multi-modal AI for multi-label retinal disease prediction using OCT and fundus images: A hybrid approach","https://scispace.com/paper/multi-modal-ai-for-multi-label-retinal-disease-prediction-1a55mhqmr0m2","2025","Journal Article","","A Zedadra
+MY Salah-Salah
+O Zedadra
+A Guerrieri","10.3390/s25144492","","… multiple retinal diseases, including Diabetic Retinopathy (DR), … a deep learning model to generate ICGA images from fundus … in Artificial Intelligence (AI), particularly deep learning and …",""
+"Diagnosis of Chronic Kidney Disease Using Retinal Imaging and Urine Dipstick Data: Multimodal Deep Learning Approach","https://scispace.com/paper/diagnosis-of-chronic-kidney-disease-using-retinal-imaging-vtci6z8gk5za","2025","Journal Article","JMIR medical informatics","Sehee Park","10.2196/55825","","… of artificial intelligence, particularly deep learning (DL), with … retinopathy findings in predicting eGFR decline, we examined fundus photographs of patients with diabetic retinopathy (…",""

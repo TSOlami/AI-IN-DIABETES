@@ -1,0 +1,63 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--I didn't find a database entry for "ahmed2023effectiveness"
+Warning--I didn't find a database entry for "nie2025aipowered"
+Warning--I didn't find a database entry for "cdss2023clinical"
+Warning--I didn't find a database entry for "telehealth2022"
+Warning--I didn't find a database entry for "ellahham2020artificial"
+Warning--I didn't find a database entry for "npj_inclusive"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 26 entries,
+            4087 wiz_defined-function locations,
+            972 strings with 14611 characters,
+and the built_in function-call counts, 21243 in all, are:
+= -- 1717
+> -- 774
+< -- 116
++ -- 391
+- -- 172
+* -- 1038
+:= -- 3133
+add.period$ -- 52
+call.type$ -- 26
+change.case$ -- 27
+chr.to.int$ -- 183
+cite$ -- 26
+duplicate$ -- 1618
+empty$ -- 1506
+format.name$ -- 197
+if$ -- 4951
+int.to.chr$ -- 0
+int.to.str$ -- 26
+missing$ -- 332
+newline$ -- 101
+num.names$ -- 26
+pop$ -- 783
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1665
+stack$ -- 0
+substring$ -- 586
+swap$ -- 1325
+text.length$ -- 55
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 26
+warning$ -- 0
+while$ -- 69
+width$ -- 28
+write$ -- 286
+(There were 6 warnings)

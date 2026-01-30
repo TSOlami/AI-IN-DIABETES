@@ -1,0 +1,56 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+% Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{url}
+\usepackage{hyperref}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Artificial Intelligence and Machine Learning Challenges in Multimodal Diabetes Data: Wearables, Retinal Imaging, and Model Generalization}
+
+\author{\IEEEauthorblockN{Saheed Tijani}
+\IEEEauthorblockA{\textit{Email: tijani.saheed@yahoo.com}}
+}
+
+\maketitle
+
+% Abstract - FORCE SINGLE COLUMN
+\onecolumn
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\begin{IEEEkeywords}
+Artificial Intelligence, Machine Learning, Diabetes, Multimodal Data, Wearable Sensors, Continuous Glucose Monitoring, Retinal Imaging, Model Generalization, Bias, Fairness, Low-Resource Settings
+\end{IEEEkeywords}
+
+% Main body - FORCE TWO COLUMN
+\twocolumn
+
+\input{sections/introduction}
+\input{sections/data_modalities}
+\input{sections/ml_approaches}
+\input{sections/multimodal_fusion}
+\input{sections/limitations}
+\input{sections/deployment}
+\input{sections/future_directions}
+\input{sections/conclusion}
+
+% References - FORCE SINGLE COLUMN
+\onecolumn
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,139 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Diagnostic Accuracy of Artificial Intelligence-Enabled Retinal Biomarkers for Detecting Type 2 Diabetes and Prediabetes Among Asian Indians [DART Study].","https://scispace.com/paper/41574589","2026","Journal Article","Diabetes technology & therapeutics","Kaup
+Sil Kar
+Carrillo-Larco
+Dhamdhere
+Lebowitz
+Anjana
+Jagannathan
+Ali
+Mohan
+Narayan
+Madabhushi
+Rajalakshmi","10.1177/15209156261417296","","To identify retinal microvascular features that distinguish normoglycemia from diabetes mellitus (DM)[Study-1] and prediabetes (PreDM)[Study-2] among Asian Indians using artificial intelligence (AI); evaluate their diagnostic accuracy; and examine independent associations of oculomics scores [Oculomic Diabetes Score (ODiS) and Prediabetes Score (OPreS)] with glycemic status."
+"Hybrid Deep Learning Framework for Continuous Blood Glucose Monitoring and Gestational Diabetes Risk Prediction.","https://scispace.com/paper/41568507","2026","Journal Article","Current diabetes reviews","Chanumolu
+G
+G","10.2174/0115733998380389251111041618","","Gestational diabetes mellitus (GDM) affects almost 10%-12% of pregnancies worldwide, threatening maternal and fetal life. Continuous glucose monitoring (CGM) forms the backbone of managing GDM, and the current methodologies largely disregard physiological and behavioral factors, thereby greatly reducing accuracy and clinical interpretability."
+"Machine learning-based online prediction of nocturnal hypoglycemia in elderly patients with type 2 diabetes.","https://scispace.com/paper/41573194","2025","Journal Article","Frontiers in endocrinology","Liu
+Guo
+Li
+Li
+Huang
+Zhao
+Zhu
+Liu
+Wang
+Lin
+Wang
+Gao
+Gao
+Liu","10.3389/fendo.2025.1685969","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12819298/pdf","Nocturnal hypoglycemia (NH) is a common adverse event in elderly patients with type 2 diabetes (T2D). This study aims to develop a clinically applicable model for predicting the risk of NH in elderly patients with T2D."
+"Hemorrhage Segmentation in Fundus Images Using the U-Net 3+ Model: Performance Comparison Across Retinal Regions.","https://scispace.com/paper/41565928","2026","Journal Article","Journal of imaging informatics in medicine","Kang
+Kim
+Kim","10.1007/s10278-025-01837-4","","Diabetic retinopathy (DR) is one of the most common complications of diabetes, and timely detection of retinal hemorrhages is essential for preventing vision loss. This study evaluates the U-Net3 + model for pixel-level hemorrhage segmentation in fundus images and examines its performance across clinically meaningful retinal regions. Model performance was assessed using accuracy, sensitivity, specificity, and Dice score and further analyzed across perivascular and extravascular areas, perifoveal and extrafoveal regions, fovea-centered quadrants, and images stratified by hemorrhage burden. U-Net3 + achieved strong overall performance, with 99.93% accuracy, 87.03% sensitivity, 99.97% specificity, and an 85.02% Dice score. Higher segmentation accuracy was observed in extravascular regions and within the foveal area, while quadrant-wise performance remained largely consistent. Images with greater hemorrhage burden demonstrated higher segmentation reliability. These findings highlight the importance of region-aware evaluation and suggest that U-Net3 + can provide clinically meaningful support for automated DR screening. Further validation using larger and multi-center datasets is required to enhance the model's generalizability for real-world clinical deployment."
+"Quantum denoising autoencoder improves retinal fundus image quality for early diabetic retinopathy screening.","https://scispace.com/paper/41565887","2026","Journal Article","Scientific reports","Chilukuri
+P
+Gatla
+Almenweer","10.1038/s41598-026-35540-3","","Diabetic Retinopathy (DR) is a critical source of blindness that can be prevented globally, and accurate analysis of retinal fundus images enables early detection. Fundus images are often affected by multiple noise sources, which impair image quality and hinder the observation of delicate retinal structures, including microaneurysms and small blood vessels. Deep learning driven denoising models are computationally intensive and prone to overfitting on small medical datasets. In order to overcome these shortcomings, the present paper suggests a Quantum Denoising Autoencoder (QDAE), a hybrid quantum-classical architecture, which uses convolutional feature coding with parameterized quantum circuits (PQCs) in latent space. The suggested QDAE applies quantum superposition and entanglement to improve the latent representations, thereby improving denoising and retinal detail preservation. Experiments on the Diabetic Retinopathy 224 × 224 (2019) dataset show that QDAE performs considerably better than classical denoising architectures, including CAE, ResNet, and DnCNN with PSNR of 38.8 dB, SSIM of 0.96, and AMI of 0.88. The approach preserves delicate retinal patterns and intensity consistency, while incurring a slight computational overhead associated with shallow quantum circuits. The results presented above demonstrate that QDAE is a potential quantum-aided architecture for denoising retinal images and a feasible preprocessing procedure in early diabetic retinopathy."
+"Annotation-free 3D reconstruction and quantification of retinal microvasculature by RADAR.","https://scispace.com/paper/41565785","2026","Journal Article","NPJ digital medicine","Zhang
+Liu
+Wu
+Wu
+Li
+Chen
+Wang
+Liang
+Lin
+Zheng
+Yao","10.1038/s41746-026-02366-2","","Three-dimensional mapping of retinal microvasculature is essential for monitoring systemic vascular health. Existing methods rely heavily on manual annotation or training-intensive deep learning models that lack generalizability. Here we report RADAR. This is an annotation-free computational framework for the 3D segmentation and quantification of optical coherence tomography angiography data. The pipeline integrates adaptive physics-aware denoising with topology-preserving centerline extraction to reconstruct complex networks without manual labeling. We validated the framework in healthy individuals and patients with early-stage diabetic retinopathy. The method outperformed standard segmentation tools and resolved layer-specific morphological alterations obscured in conventional two-dimensional projections. Quantitative analysis revealed distinct patterns of compensatory remodeling and increased tortuosity in diabetic eyes. RADAR enables precise extraction of volumetric biomarkers including vessel length and branching complexity. It provides a scalable tool for early detection and longitudinal assessment of ocular and systemic vascular diseases."
+"Selecting measures of visual function to classify diabetic retinopathy status: a cross-sectional study.","https://scispace.com/paper/41558771","2026","Journal Article","BMJ open ophthalmology","Wright
+Chakravarthy
+Das
+Graham
+Naskas
+Peto
+Hogg","10.1136/bmjophth-2025-002536","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12820872/pdf","To identify combinations of up to three visual function tests with the best performance for classifying diabetic retinopathy (DR) severity stage. To describe in detail the measurements from a comprehensive set of visual function tests."
+"Classifying retinal images via vascular-optic disc cross-segmentation and attentive feature selection.","https://scispace.com/paper/41545531","2026","Journal Article","Scientific reports","Khurshid
+Chiranjeev
+Singh
+Vatsa","10.1038/s41598-025-89666-x","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12820054/pdf","The prevalence of retinal disorders is rising at an alarming rate, posing a significant risk of irreversible blindness without timely intervention. Recent advancements in artificial intelligence (AI) have enabled the development of automated screening systems for retinal image analysis. However, building robust models presents challenges due to inconsistencies in image acquisition, varying resolutions, and imbalanced class distributions. To address these issues, this research introduces a novel abnormality-aware attentive feature selection approach for classifying retinal images into three categories: healthy (H), glaucoma (G), and diabetic retinopathy (DR). This method focuses on extracting the most discriminative features to enhance classification performance. Additionally, we propose a cross-segmentation framework that extracts and integrates comprehensive multiview information-specifically, optic disc and vascular structures-from the input retinal images. By leveraging these supplementary features, our approach effectively addresses low inter-class variability and enriches the information available for accurate classification. Extensive experiments conducted on diverse publicly available datasets-including FIVES, Drishti-GS1, SUSTech, HRF, and PAPILA-demonstrate the robustness of the proposed method. The model achieved a balanced accuracy of 83% (95% CI: 80%-86%), with sensitivities of 0.81 for the healthy class, 0.81 for glaucoma, and 0.87 for diabetic retinopathy. The corresponding specificity values were 0.84, 0.83, and 0.85; positive predictive values (PPV) were 0.83, 0.75, and 0.90; and negative predictive values (NPV) were 0.86, 0.91, and 0.96, respectively. These results indicate that the model is robust in distinguishing between the three classes, exhibiting balanced performance across all metrics."
+"Assessment of Correlation Between Diabetic Retinopathy and Metabolic Biomarkers Using Artificial Intelligence.","https://scispace.com/paper/41541002","2026","Journal Article","Journal of diabetes research","Aydemir
+Bilgin
+Sari
+Doğan
+Bulut
+Akar","10.1155/jdr/9085827","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12801202/pdf","One of the main causes of blindness in the world, diabetic retinopathy (DR) is a dangerous condition that impairs vision in diabetics. Preventing visual loss requires early recognition of DR and prompt treatments. Artificial intelligence (AI) software combined with nonmydriatic fundus cameras has demonstrated encouraging gains in DR screening effectiveness. However, there are not many studies that systematically compare the diagnostic effectiveness of various nonmydriatic cameras and AI software in the field of endocrinology, where managing diabetes and its complications is crucial. By offering vital information for enhancing diabetes care plans and fortifying preventative actions in the context of endocrine health, this study seeks to close this knowledge gap."
+"Diabetic retinopathy detection and grading system using deep learning approach.","https://scispace.com/paper/41522450","2026","Journal Article","Digital health","Raja
+Kumarganesh
+Sagayam
+Dang","10.1177/20552076251410982","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12783591/pdf","Early screening for diabetic retinopathy (DR) prevents vision loss in diabetic patients."
+"AI in the Shadows: Unveiling the Strengths and Blind Spots of Medios AI Retinal Screening in Cancer Care.","https://scispace.com/paper/41531643","2025","Journal Article","Cureus","Das
+Chawla
+Lomi
+Grover
+Narayan","10.7759/cureus.99002","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12791174/pdf","Introduction Artificial intelligence (AI) is increasingly being integrated into ophthalmic diagnostics, offering potential for efficient screening of common retinal diseases. The Medios AI system by Remidio (Singapore, Singapore), designed for use with a smartphone-based fundus camera, claims to detect diabetic retinopathy (DR), age-related macular degeneration (ARMD), and glaucoma. However, its performance in complex clinical settings such as ocular oncology remains underexplored. This study aims to evaluate both the diagnostic capabilities and limitations of the Medios AI system when applied to a diverse cohort of oncology patients. Materials and methods An observational study was conducted over three months in an ocular oncology clinic. Ninety-eight cancer patients (196 eyes) underwent fundus photography using the Remidio smartphone-based fundus imaging system. The images were analyzed using the Medios AI algorithm. AI-generated findings were compared with clinical evaluations by an experienced ophthalmologist to identify diagnostic concordance and discrepancies. Additional attention was paid to the system's imaging capabilities, including its ability to capture wide-field or montage images. Result The AI system accurately identified glaucomatous cupping in three patients, flagged two cases of DR, and detected signs of ARMD in two patients-all consistent with clinical examination. However, eight patients with leukemic retinopathy were incorrectly flagged as having DR, revealing a lack of specificity in distinguishing vascular retinal pathologies. The system also failed to detect optic atrophy, a critical neuro-ophthalmic finding in oncology patients. A technical limitation was also noted: the inability of the Remidio system to generate montage or wide-field images, restricting visualization of the peripheral retina. Conclusion While the Medios AI system demonstrates promise in identifying common retinal pathologies such as DR, ARMD, and glaucoma, its limitations are significant in the oncology context. The inability to distinguish similar hemorrhagic retinopathies, failure to detect optic nerve atrophy, and lack of wide-field imaging capabilities underscore the need for cautious implementation. Integration of AI tools must be accompanied by expert clinical oversight, especially in specialized settings where retinal presentations are complex and atypical."
+"Automated method for quantitative analysis of iris fluorescein angiography based on machine learning.","https://scispace.com/paper/41522026","2026","Journal Article","Quantitative imaging in medicine and surgery","Zhu
+Sun
+Han
+Chen
+Western
+Zhang","10.21037/qims-2025-480","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12780619/pdf","Diabetic retinopathy is a leading cause of vision impairment, often progressing to neovascular glaucoma. Early detection of neovascularisation of the iris (NVI) is crucial for timely intervention. Traditional diagnostic methods, such as slit-lamp examination, have limitations in identifying early-stage NVI. This study presents a deep learning-based automated approach for analysing iris fluorescein angiography (IFA) images to detect and quantify peripupillary leakage, a key indicator of NVI."
+"Quantitative evaluation of retinal vascular morphology based on the human visual bionic mechanism for the evaluation of diabetic retinopathy onset.","https://scispace.com/paper/41506538","2026","Journal Article","Microvascular research","Xu
+Wu
+Ling
+Dong
+Ke
+Lu
+Ye
+Song
+Zou","10.1016/j.mvr.2026.104901","","A limited amount of diabetic retinopathy (DR) development can be explained by traditional risk factors. This study aimed to determine the association of artificial intelligence (AI)-assisted retinal vasculature measurement parameters with DR onset in adults with type 2 diabetes."
+"Emerging Oculomic Signatures: Linking Thickness of Entire Retinal Layers with Plasma Biomarkers in Preclinical Alzheimer's Disease.","https://scispace.com/paper/41517524","2025","Journal Article","Journal of clinical medicine","Abboud
+Xu
+Xu
+Alhasany
+Wang
+Wu
+Astraea
+Jiang
+Hu
+Chan","10.3390/jcm15010275","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12786561/pdf",""
+"Automated retinal disease classification using deep learning and AlexNet with statistical models analysis.","https://scispace.com/paper/41494023","2026","Journal Article","PloS one","Elkenawy
+Khodadadi
+Gaber
+Khodadadi
+Alhussan
+Khafaga
+Eid","10.1371/journal.pone.0338415","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12774357/pdf","Diabetic Retinopathy, Cataract, and Glaucoma are major retinal diseases that require early detection to prevent irreversible vision loss. This study proposes a deep learning-based framework for the automated classification of retinal images into four categories: Normal, Diabetic Retinopathy, Cataract, and Glaucoma. The dataset was compiled from publicly available retinal imaging databases, including IDRiD and HRF. Four convolutional neural network architectures-EfficientNet-B0, EfficientNet-B7, a build-from-scratch model, and AlexNet-were evaluated using multiple performance metrics. Among these, AlexNet achieved the highest overall performance, attaining an accuracy of 93.65%, sensitivity of 94.39%, specificity of 98.05%, PPV of 93.65%, NPV of 97.95%, and an F1-score of 93.74%. EfficientNet-B7 followed with an accuracy of 92.82%, confirming the strength of transfer learning in retinal feature extraction. A five-fold cross-validation further validated AlexNet's robustness, yielding a mean R2 of 0.8891 with low variance, indicating consistent generalization across folds. Computational efficiency analysis showed that AlexNet achieved high diagnostic accuracy with a moderate processing time of approximately 14 minutes. Model interpretability using SHapley Additive exPlanations (SHAP) revealed that AlexNet highlighted clinically relevant retinal regions, such as the optic disc and macula, thereby enhancing transparency and clinical trust. In summary, the proposed framework demonstrates that interpretable deep learning models can deliver accurate, consistent, and explainable retinal disease classification, offering a foundation for real-time, AI-assisted ophthalmic screening systems."
+"Applicability study of AI attribution methods for ophthalmic image classification.","https://scispace.com/paper/41491079","2026","Journal Article","Scientific reports","Yavari
+Schmoll
+Leitgeb
+Huber
+Stino
+Pollreisz
+Drexler
+Schlegl","10.1038/s41598-025-33120-5","","Optical coherence tomography (OCT) enables early detection of vision-threatening diabetic retinopathy (DR) and retinal fluid accumulation, both major complications of diabetes. Despite high classification performance, deep learning models face limited clinical adoption due to poor interpretability. While attribution methods are effective for explaining predictions in the natural image domain, their applicability to medical imaging remains underexplored. To bridge this gap, our work explores how well these strong results transfer to the medical imaging domain. This study evaluates three cutting-edge attribution methods- DeepLIFT, AGI, and AttEXplore -for explaining predictions of a VGG16-based deep learning model in DR classification using widefield OCTA en face images and fluid detection in OCT B-scans. We assess attribution methods' ability to highlight clinically relevant regions using quantitative (insertion and deletion scores) and qualitative (heatmap visual analysis) measures. Although the VGG16 model achieves high classification accuracy (94% for DR and 98% for fluid), attribution methods yield markedly different qualitative results due to variations in underlying assumptions and hyperparameter sensitivity. Additionally, high insertion or low deletion scores do not necessarily correlate with clinically meaningful visual attributions. In particular, insertion- and deletion-based behaviour can be more informative in pathological cases, where localized lesions can drive predictions, but tends to be less informative in normal cases, where confirming the absence of pathology requires global contextual evidence. Comparing the three approaches, we find that AGI and AttEXplore achieve similarly strong quantitative performance, whereas AttEXplore more consistently highlights clinically meaningful structures in pathological cases than AGI and DeepLIFT, making it the preferred option in our DR and fluid detection settings. However, our results also show that in any potential clinical usage, all three methods must be interpreted alongside clinical expertise, and even the result of the best-performing attribution approach cannot serve as an automatic proxy for clinical relevance. This study provides critical insights into challenges of applying attribution methods to medical imaging, using ophthalmic data, laying a foundation for improving transparency and trust in AI-assisted diagnostics."
+"Gut microbiome profiles and associated functional pathways are linked to Mediterranean diet adherence and blood glucose control in adults with type 1 diabetes mellitus.","https://scispace.com/paper/41484024","2025","Journal Article","Nutrition, metabolism, and cardiovascular diseases : NMCD","Abuqwider
+Pasolli
+Scidà
+Corrado
+Vitale
+De Filippis
+Ercolini
+Annuzzi
+Rivellese
+Bozzetto","10.1016/j.numecd.2025.104487","","The Mediterranean diet (MD) has been associated with better glycaemic control in children with type 1 diabetes mellitus (T1DM) and favourable microbiome profiles in healthy individuals. However, it remains unclear whether MD adherence is associated with glycaemic control via microbiome. This study examined the relationships among MD adherence, gut microbiome, and glycaemic control in adults with T1DM and assessed the microbiome's ability to predict clinical and dietary outcomes."
+"Classification of Choroidal Neovascularization and Diabetic Macular Edema Based on Feature Extraction from Optical Coherence Tomography Images.","https://scispace.com/paper/41479092","2026","Journal Article","Advances in experimental medicine and biology","Bitzanakis
+Vrahatis","10.1007/978-3-032-03402-1_30","","Optical coherence tomography (OCT) is a widely used imaging modality for diagnosing and monitoring macular diseases, including diabetic macular edema (DME) and choroidal neovascularization (CNV), both of which can cause severe visual impairment. Clinicians rely on various OCT biomarkers to identify these conditions. An algorithm was developed in Python to extract biomarker-associated features from OCT images and applied to a pre-labeled dataset containing normal, DME, and CNV images. Distribution analysis confirmed that the extracted features aligned with the existing literature. Using these features, LightGBM classified the OCT images, achieving 91% accuracy and 98% area under the receiver operating characteristic curve. Based on these promising results, this algorithm could contribute to the development of more advanced feature extraction methodologies for the diagnosis of macular diseases using traditional machine learning approaches. Such algorithms could potentially be integrated into automated patient screening systems."
+"Digital twin paradigm in diabetes prediction and management.","https://scispace.com/paper/41475525","2026","Journal Article","Diabetes research and clinical practice","Olawade
+Owhonda
+Alabi
+Egbon
+Ayo Daniel
+Bello","10.1016/j.diabres.2025.113075","","Traditional diabetes management employs reactive strategies with therapeutic adjustments after adverse glycaemic events rather than proactive prevention, resulting in suboptimal control and increased complications. Digital twin (DT) technology creates virtual replicas through computational modelling and real time data integration as a transformative approach. However, questions remain regarding clinical validation, implementation feasibility, and generalisability. This review examines current applications, challenges, and future potential of digital twin technology in diabetes prediction and management. PubMed, Scopus, Web of Science, and IEEE Xplore databases were searched for peer reviewed articles (2015-2024) on DT applications in diabetes care, predictive modelling, and therapeutic optimisation. Critical synthesis compared methodological approaches, performance metrics, and implementation challenges. DT demonstrate variable but promising potential through glucose prediction, personalised insulin dosing, dietary optimisation, and complication risk assessment, integrating continuous glucose monitoring, wearable sensors, and machine learning algorithms. Evidence quality varies substantially, with most studies representing proof-of-concept or pilot implementations. Implementation faces data privacy concerns, validation requirements, and integration complexities. Critical gaps exist in long-term effectiveness, algorithmic bias mitigation, and generalisability to underserved populations. DT technology represents an evolving paradigm towards precision diabetes care. However, rigorous clinical validation, addressing equity concerns, and establishing sustainable implementation frameworks remain essential for widespread adoption."
+"Hyperglycemia in Critically Ill Patients: Current Approaches and Management Strategies.","https://scispace.com/paper/41482394","2026","Journal Article","In vivo (Athens, Greece)","Daina
+Vesa
+Ghitea
+Iova
+Bonțea
+László
+Daina","10.21873/invivo.14223","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12764272/pdf","Hyperglycemia is frequently encountered in critically ill patients and is associated with adverse outcomes, including increased morbidity and mortality. It may be pre-existing due to diabetes mellitus or develop during hospitalization as stress hyperglycemia. This review aims to raise awareness among medical staff regarding the implications of hyperglycemia in critically ill patients, its pathophysiology, monitoring techniques, and current treatment protocols. Therefore, evidence from the international literature is analyzed, with specialized journals serving as reference points, focusing on the impact of glycemic variability, individualized patient management, and emerging technologies such as artificial intelligence-driven biosensors for glucose monitoring. Hyperglycemia is defined as a blood glucose level exceeding 7.0 mmol/l (125 mg/dl) before admission or surpassing 10.0 mmol/l (180 mg/dl) two hours postprandial. Monitoring can be conducted using arterial or capillary blood, continuous glucose monitoring systems, or artificial intelligence-enhanced biosensors. Regardless of their diabetic status, patients present unique clinical features. Those with pre-existing diabetes may experience hypoglycemia, diabetic ketoacidosis, hyperosmolar hyperglycemic state, electrolyte imbalances, and dehydration, necessitating meticulous monitoring and intervention. Special attention must be given to glycemic variability, maintaining levels between 3.8 and 10.0 mmol/l (70-180 mg/dl), and timely interventions to prevent complications. Current treatment protocols prioritize intravenous insulin infusion based on multiple clinical studies on hyperglycemic intensive care unit (ICU) patients. To minimize complications, maintaining glucose levels between 6.1 and 10.0 mmol/l (110-180 mg/dl) is recommended, balancing the risk of hypoglycemia. Hyperglycemia negatively impacts mortality due to systemic damage and the delayed detection of glucose dysregulation. This review underscores the necessity of personalized glycemic control strategies to improve patient outcomes in ICUs."

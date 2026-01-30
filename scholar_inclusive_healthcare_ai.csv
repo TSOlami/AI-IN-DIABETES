@@ -1,0 +1,38 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Snippet","Abstract"
+"Achieving inclusive healthcare through integrating education and research with AI and personalized curricula","https://scispace.com/paper/achieving-inclusive-healthcare-through-integrating-education-1z1us2q7aqtl","2024","Journal Article","medRxiv","Amir Bahmani
+Kexin Cha
+Arash Alavi
+Amit Dixit
+Antony Ross
+Ryan Park
+Francesca Goncalves
+Shirley Ma
+Paul Saxman
+Ramesh Nair
+Ramin Akhavan-Sarraf
+Xin Zhou
+Meng Wang
+Kévin Contrepois
+Jennifer Li
+Pook Than
+Emma Monte
+David Jose Florez Rodriguez
+Jaslene Lai
+Mohan Babu
+Abtin Tondar
+Sophia Miryam
+Schüssler-Fiorenza Rose
+Ilya Akbari
+Xinyue Zhang
+Kritika Yegnashankaran
+Joseph Yracheta
+Kali Dale
+Alison Derbenwick Miller
+Eva M McGhee
+Camille Nebeker
+Joseph C. Wu
+Anshul Kundaje
+Michael Snyder","10.1101/2024.07.31.24311182","https://www.nature.com/articles/s43856-025-01034-y.pdf","Precision medicine promises significant health benefits but faces challenges such as complex data management and analytics, interdisciplinary collaboration, and education of researchers, healthcare professionals, and participants. Addressing these needs requires the integration of computational experts, engineers, designers, and healthcare professionals to develop user-friendly systems and shared terminologies. The widespread adoption of large language models (LLMs) such as Generative Pretrained Transformer (GPT) and Claude highlights the importance of making complex data accessible to non-specialists.
+We evaluated the Stanford Data Ocean (SDO) precision medicine training program’s learning outcomes, AI Tutor performance, and learner satisfaction by assessing self-rated competency on key learning objectives through pre- and post-learning surveys, along with formative and summative assessment completion rates. We also analyzed AI Tutor accuracy and learners’ self-reported satisfaction, and post-program academic and career impacts. Additionally, we demonstrated the capabilities of the AI Data Visualization tool.
+SDO demonstrates the ability to improve learning outcomes for learners from broad educational and socioeconomic backgrounds with the support of the AI Tutor. The AI Data Visualization tool enables learners to interpret multi-omics and wearable data and replicate research findings.
+SDO strives to mitigate challenges in precision medicine through a scalable, cloud-based platform that supports data management for various data types, advanced research, and personalized learning. SDO provides AI Tutors and AI-powered data visualization tools to enhance educational and research outcomes and make data analysis accessible to users from broad educational backgrounds. By extending engagement and cutting-edge research capabilities globally, SDO particularly benefits economically disadvantaged and historically marginalized communities, fostering interdisciplinary biomedical research and bridging the gap between education and practical application in the biomedical field.","Precision medicine promises significant health benefits but faces challenges such as the need for complex data management and analytics, interdisciplinary collaboration, and education of researchers, healthcare professionals, and participants. Addressing these needs requires the integration of computational experts, engineers, designers, and healthcare professionals to develop user-friendly systems and shared terminologies. The widespread adoption of large language models (LLMs) like GPT-4 and Claude 3 highlights the importance of making complex data accessible to non-specialists. The Stanford Data Ocean (SDO) strives to mitigate these challenges through a scalable, cloud-based platform that supports data management for various data types, advanced research, and personalized learning in precision medicine. SDO provides AI tutors and AI-powered data visualization tools to enhance educational and research outcomes and make data analysis accessible for users from diverse educational backgrounds. By extending engagement and cutting-edge research capabilities globally, SDO particularly benefits economically disadvantaged and historically marginalized communities, fostering interdisciplinary biomedical research and bridging the gap between education and practical application in the biomedical field."

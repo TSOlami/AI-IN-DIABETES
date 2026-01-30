@@ -1,0 +1,63 @@
+\section{Data Modalities and Problem Formulation}
+
+The application of AI/ML to diabetes care draws upon a diverse array of data modalities, each characterized by distinct temporal resolutions, measurement principles, and clinical utility. Understanding the properties, challenges, and complementary nature of these data sources is essential for developing robust multimodal systems.
+
+\subsection{Wearable Sensors and Continuous Glucose Monitoring}
+
+Continuous glucose monitoring systems represent a cornerstone of modern diabetes management, providing interstitial glucose measurements at intervals ranging from 1 to 15 minutes \cite{alhaddad2022sense}, \cite{contreras2018artificial}. CGM data enables the detection of glycemic patterns, prediction of hypo- and hyperglycemic events, and optimization of insulin dosing strategies \cite{jacobs2023artificial}. Recent advances in non-invasive and minimally invasive sensing technologies have expanded the landscape of wearable devices to include smartwatches, fitness trackers, and specialized medical patches that capture heart rate, heart rate variability, physical activity, sleep patterns, and other physiological signals \cite{alhaddad2022sense, rodriguez2023applications}.
+
+The integration of CGM with accelerometry and heart rate data enables context-aware glucose prediction models that account for physical activity, stress, and circadian rhythms \cite{contreras2018artificial, alhaddad2022sense}. Photoplethysmography (PPG) and electrocardiography (ECG) signals have shown promise for non-invasive glucose estimation and detection of autonomic neuropathy, though clinical validation remains limited \cite{zanelli2022diabetes, alhaddad2022sense}. Emerging modalities such as bioimpedance spectroscopy, electromagnetic sensing, and analysis of bodily fluids (sweat, saliva, tears) are under investigation but face challenges related to accuracy, calibration drift, and susceptibility to environmental confounders \cite{alhaddad2022sense}.
+
+Despite their potential, wearable sensor data present significant challenges for AI/ML applications. Temporal resolution and sampling rates vary across devices, complicating data integration and model generalization \cite{prioleau2025deep}. Missing data due to sensor failures, user non-adherence, or connectivity issues are pervasive, with rates often exceeding 20\% in real-world deployments \cite{jacobs2023artificial}. Measurement noise, calibration drift, and inter-device variability introduce systematic errors that degrade model performance \cite{alhaddad2022sense}. Furthermore, the high dimensionality and temporal dependencies of time-series data necessitate specialized architectures such as recurrent neural networks (RNNs), long short-term memory (LSTM) networks, and temporal convolutional networks, which require substantial computational resources and large training datasets \cite{zhu2021deep, alam2024machine}.
+
+\subsection{Retinal Imaging Modalities}
+
+Diabetic retinopathy (DR) is a leading cause of vision loss among working-age adults, affecting approximately one-third of individuals with diabetes \cite{scheideman2025machine}. Early detection through systematic screening enables timely intervention and prevention of irreversible vision impairment. Fundus photography and optical coherence tomography (OCT) are the primary imaging modalities used for DR screening and diagnosis \cite{contreras2018artificial}.
+
+Fundus photography captures two-dimensional color images of the retina, enabling visualization of microaneurysms, hemorrhages, exudates, and neovascularization characteristic of DR progression \cite{scheideman2025machine}. Convolutional neural networks (CNNs) have achieved expert-level performance in automated DR grading from fundus images, with several systems receiving regulatory approval for clinical use \cite{zhu2021deep}. OCT provides high-resolution cross-sectional images of retinal layers, enabling quantification of macular edema and assessment of structural changes associated with diabetic macular edema \cite{contreras2018artificial}.
+
+However, retinal imaging AI systems face critical challenges that limit their real-world utility. Image quality varies substantially across acquisition devices, camera settings, and operator expertise, with low-quality images accounting for 10-30\% of screening datasets \cite{scheideman2025machine}. Models trained on high-quality research datasets often fail when applied to images from low-cost portable devices commonly used in resource-limited settings \cite{bai2024federated}. Ethnic and demographic diversity in training data is limited, with most datasets derived from European and North American populations, leading to performance degradation for African, Asian, and Hispanic patients \cite{wang2024ai, fahmy2025exploring}. The lack of standardized grading protocols and inter-rater variability in reference labels introduce label noise that propagates through model training \cite{scheideman2025machine}.
+
+\subsection{Electronic Health Records and Clinical Data}
+
+Electronic health records aggregate longitudinal patient data including demographics, diagnoses, laboratory results, medications, vital signs, and clinical notes \cite{contreras2018artificial, oikonomou2023machine}. EHR data enable risk stratification, prediction of complications, and identification of patients who may benefit from intensive interventions \cite{wang2024ai}. Natural language processing (NLP) techniques can extract structured information from unstructured clinical notes, expanding the scope of available features for predictive modeling \cite{contreras2018artificial}.
+
+However, EHR data are characterized by high dimensionality, sparsity, irregular sampling, and systematic biases related to healthcare access and documentation practices \cite{oikonomou2023machine}. Missing data mechanisms are often non-random, with sicker patients having more complete records, complicating imputation strategies \cite{jacobs2023artificial}. Temporal dependencies and complex interactions between medications, comorbidities, and lifestyle factors challenge traditional statistical approaches, motivating the use of deep learning architectures such as recurrent neural networks and attention-based models \cite{zhu2021deep}.
+
+\subsection{Problem Formulation and Modeling Objectives}
+
+AI/ML applications in diabetes care encompass a range of prediction and classification tasks, each with distinct data requirements, evaluation metrics, and clinical implications. Common objectives include:
+
+\begin{itemize}
+    \item \textbf{Glucose prediction:} Forecasting future glucose levels (typically 30-60 minutes ahead) to enable proactive intervention and prevention of hypo/hyperglycemia \cite{jacobs2023artificial, prioleau2025deep}.
+    \item \textbf{Diabetic retinopathy screening:} Automated grading of DR severity from retinal images to enable scalable screening programs \cite{scheideman2025machine, zhu2021deep}.
+    \item \textbf{Risk prediction:} Estimating probability of diabetes onset, progression to complications, or adverse events \cite{oikonomou2023machine, wang2024ai}.
+    \item \textbf{Treatment optimization:} Personalized recommendations for insulin dosing, medication selection, or lifestyle interventions \cite{mackenzie2023diabetes, contreras2018artificial}.
+\end{itemize}
+
+The formulation of these tasks as supervised learning problems requires careful consideration of label definitions, prediction horizons, feature engineering, and evaluation metrics that align with clinical utility \cite{jacobs2023artificial}. Imbalanced class distributions, particularly for rare complications, necessitate specialized sampling strategies and loss functions \cite{alam2024machine}. The temporal nature of diabetes progression and treatment response motivates the use of time-series modeling approaches that capture longitudinal patterns and account for time-varying confounders \cite{zhu2021deep}.
+
+Table~\ref{tab:data_modalities} summarizes the key characteristics, advantages, and challenges of major data modalities used in AI-driven diabetes care.
+
+\begin{table*}[t]
+\centering
+\caption{Comparison of Data Modalities in AI-Driven Diabetes Care}
+\label{tab:data_modalities}
+\begin{tabular}{p{2.5cm}p{3cm}p{4cm}p{5.5cm}}
+\toprule
+\textbf{Data Modality} & \textbf{Key Characteristics} & \textbf{Clinical Applications} & \textbf{Major Challenges} \\
+\midrule
+Continuous Glucose Monitoring (CGM) & High-frequency time-series (1-15 min intervals); interstitial glucose & Glucose prediction, hypoglycemia detection, insulin optimization & Missing data, sensor noise, calibration drift, inter-device variability, high computational cost \\
+\midrule
+Wearable Sensors (Activity, HR, PPG) & Multi-modal physiological signals; variable sampling rates & Context-aware glucose prediction, activity detection, stress monitoring & Heterogeneous devices, missing data, limited accuracy for glucose estimation, privacy concerns \\
+\midrule
+Fundus Photography & 2D color retinal images; variable quality & Diabetic retinopathy screening and grading & Image quality variability, limited ethnic diversity in training data, device heterogeneity, label noise \\
+\midrule
+Optical Coherence Tomography (OCT) & High-resolution 3D retinal structure & Macular edema quantification, structural assessment & High cost, limited availability in low-resource settings, computational complexity \\
+\midrule
+Electronic Health Records (EHR) & Longitudinal clinical data; structured and unstructured & Risk prediction, complication forecasting, treatment optimization & High dimensionality, sparsity, irregular sampling, non-random missingness, documentation bias \\
+\midrule
+Genomic Data & Genetic variants, polygenic risk scores & Risk stratification, precision medicine & High cost, limited clinical utility, ethical concerns, population stratification \\
+\bottomrule
+\end{tabular}
+\end{table*}

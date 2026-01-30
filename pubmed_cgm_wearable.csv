@@ -1,0 +1,259 @@
+"Paper Title","Paper Link","Publication Year","Publication Type","Publication Title","Author Names","DOI","PDF Link","Abstract"
+"Consistent Benefit of Control-IQ+ Automated Insulin Delivery Across a Range of Characteristics of Adults with Type 2 Diabetes.","https://scispace.com/paper/41574573","2026","Journal Article","Diabetes technology & therapeutics","Singh
+Lum
+Kanapka
+Pinsker
+Beck","10.1177/15209156261416920","","To assess the benefit of automated insulin delivery (AID) across a wide range of participant characteristics and evaluate whether there are any characteristics that can predict whether a patient is not likely to be a successful AID user."
+"International clinical opinion on transparency, standardisation, and calibration alignment in the performance evaluation of systems for continuous glucose monitoring.","https://scispace.com/paper/41582769","2026","Journal Article","Diabetes, obesity & metabolism","Pemberton
+Andrews
+Barnard-Kelly
+Battelino
+Danne
+Heinemann
+Kar
+Lumb
+Maahs
+Mader
+Mathieu
+Mohan
+Murphy
+Scott
+Sherr
+Smart
+Tauschmann
+Williams
+Wilmot
+Zaharieva
+Moser","10.1111/dom.70460","","Continuous glucose monitoring (CGM) is now central to diabetes management, yet variation in how respective medical products are evaluated limits meaningful comparison between CGM systems. Three barriers currently constrain reliable interpretation of glucose-derived measures. The first is limited transparency: in several regulatory settings, particularly those using Conformité Européenne marking, clinical-study reports, reference-method information and analytical documentation required for market authorisation are not publicly accessible. The second barrier is heterogeneity in study procedures. Existing evaluations use different reference-glucose methods, sampling strategies, glucose-manipulation protocols and participant characteristics, leading to accuracy estimates that cannot be interpreted consistently across systems. The third barrier is calibration alignment. Even with full transparency and aligned procedures, CGM systems may differ because their calibration algorithms are trained on distinct reference-glucose datasets, influencing reported glucose ranges, automated insulin-delivery behaviour and interpretation during device transitions. A modified Delphi process involving clinicians, laboratory scientists, and researchers identified these issues as the principal determinants of comparability. During this process, the International Federation of Clinical Chemistry and Laboratory Medicine released a validated framework for performance evaluation of CGM systems, providing a unified approach to reference-method selection, dynamic in-clinic testing, and structured reporting. Adoption would reduce procedural variability but does not resolve calibration-alignment differences. This international clinical opinion proposes a pathway towards internationally interpretable CGM evaluation: immediate transparency of clinical evidence, routine declaration of calibration alignment, and progressive adoption of validated standardised procedures. These steps provide a foundation for reliable interpretation and globally comparable assessment of CGM technologies."
+"Automated Insulin Delivery Associated with Superior Glycemic Outcomes in Type 1 Diabetes: A Swedish National Registry Analysis.","https://scispace.com/paper/41574582","2026","Journal Article","Diabetes technology & therapeutics","Ståhl
+Hellman
+Ekelund","10.1177/15209156251414976","","Automated insulin delivery (AID) systems integrate continuous glucose monitoring (CGM) and insulin pumps with algorithms that adjust insulin delivery. While randomized controlled trials (RCTs) demonstrate improvements in glycemic outcomes with AID, large-scale real-world data (RWD) analyses are needed to evaluate performance in routine care."
+"Machine learning-based online prediction of nocturnal hypoglycemia in elderly patients with type 2 diabetes.","https://scispace.com/paper/41573194","2025","Journal Article","Frontiers in endocrinology","Liu
+Guo
+Li
+Li
+Huang
+Zhao
+Zhu
+Liu
+Wang
+Lin
+Wang
+Gao
+Gao
+Liu","10.3389/fendo.2025.1685969","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12819298/pdf","Nocturnal hypoglycemia (NH) is a common adverse event in elderly patients with type 2 diabetes (T2D). This study aims to develop a clinically applicable model for predicting the risk of NH in elderly patients with T2D."
+"Hybrid Deep Learning Framework for Continuous Blood Glucose Monitoring and Gestational Diabetes Risk Prediction.","https://scispace.com/paper/41568507","2026","Journal Article","Current diabetes reviews","Chanumolu
+G
+G","10.2174/0115733998380389251111041618","","Gestational diabetes mellitus (GDM) affects almost 10%-12% of pregnancies worldwide, threatening maternal and fetal life. Continuous glucose monitoring (CGM) forms the backbone of managing GDM, and the current methodologies largely disregard physiological and behavioral factors, thereby greatly reducing accuracy and clinical interpretability."
+"From Pathophysiology to Treatment: Contemporary Approaches to CFRD in the Pediatric and Adolescent Population.","https://scispace.com/paper/41552835","2026","Journal Article","Pediatric diabetes","Vuralli","10.1155/pedi/5539725","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12811412/pdf","Cystic fibrosis-related diabetes (CFRD) is the most prevalent nonrespiratory complication of cystic fibrosis (CF), with its prominence growing as survival rates improve due to advances in CFTR modulator therapies. Its prevalence increases with age, affecting nearly 50% of patients with CF (PwCF) over 30 years old. CFRD primarily results from progressive pancreatic fibrosis leading to insulin deficiency, further compounded by intermittent insulin resistance during pulmonary exacerbations and systemic inflammation. Key risk factors include pancreatic insufficiency, female sex, severe "
+"Efficacy of an AI-Enabled Low Glucose Prediction: A Pooled Performance Analysis With Capillary Blood Glucose as Ground Truth.","https://scispace.com/paper/41548894","2026","Journal Article","Journal of diabetes science and technology","Glatzer
+Peak
+Leppäaho
+Lustenberger
+Herrero
+Andorrà
+van Maren","10.1177/19322968251412451","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12812513/pdf","Hypoglycemia is a critical challenge for insulin-dependent people with diabetes using multiple daily injections (MDI), who rely on reactive responses to continuous glucose monitoring (CGM) alerts. To meet the need for a proactive safety tool, we evaluated the performance of the Low Glucose Predict (LGP) feature in the Accu-Chek SmartGuide Predict App."
+"Continuous Glucose Monitoring-Based Machine Learning Identification of Diurnal Glycemic Patterns and Diabetes Distress in Type 2 Diabetes.","https://scispace.com/paper/41548885","2026","Journal Article","Journal of diabetes science and technology","Lee
+Nam","10.1177/19322968251412449","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12812510/pdf","To identify diurnal glycemic patterns in adults with type 2 diabetes (T2D) using continuous glucose monitoring (CGM)-based machine learning and examine their association with diabetes distress, a key psychosocial outcome."
+"Insulin pump guide for health care professionals: settings, interpretation, and adjustment.","https://scispace.com/paper/41548846","2026","Journal Article","Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists","Lansang
+Malloy
+Knapp
+Veeramachaneni
+Rahhal
+Arce
+Mucci
+Zhou
+Isaacs","10.1016/j.eprac.2025.12.025","","The number of people with diabetes using insulin pumps has increased through the years. Automated insulin delivery (AID) systems, which integrate pump and continuous glucose monitoring with an algorithm to deliver insulin, have enhanced the adoption of insulin pumps. We present a step-by-step resource for health care professionals, from novices to more advanced practitioners, for reviewing the features and settings of AIDs and interpreting the download reports, including considerations such as the kind of insulin used in the pump, and the nonjudgmental approach in evaluating patient behaviors."
+"A foundation model for continuous glucose monitoring data.","https://scispace.com/paper/41535468","2026","Journal Article","Nature","Lutsker
+Sapir
+Shilo
+Merino
+Godneva
+Greenfield
+Samocha-Bonet
+Dhir
+Gude
+Mannor
+Meirom
+Xing
+Chechik
+Rossman
+Segal","10.1038/s41586-025-09925-9","","Continuous glucose monitoring (CGM) generates detailed temporal profiles of glucose dynamics, but its full potential for achieving glucose homeostasis and predicting long-term outcomes remains underutilized. Here we present GluFormer, a generative foundation model for CGM data trained with self-supervised learning on more than 10 million glucose measurements from 10,812 adults mainly without diabetes"
+"Systematic Review on Deep Learning Algorithms for Blood Glucose Forecasting in Type 1 Diabetes.","https://scispace.com/paper/41533628","2026","Journal Article","IEEE journal of biomedical and health informatics","Calzavara
+Prendin
+Cappon
+Del Favero
+Facchinetti","10.1109/JBHI.2025.3630214","","Type 1 Diabetes (T1D) is a chronic metabolic disease characterized by elevated blood glucose (BG) concentrations, resulting from the immune-mediated destruction of insulin-producing $\beta$-cells in the pancreas. Effective management of T1D greatly benefits from constant monitoring of BG levels, achievable in real-time using minimally invasive continuous glucose monitoring (CGM) devices. These devices provide data streams that can be leveraged by forecasting algorithms to predict BG levels minutes in advance, enabling timely therapeutic interventions to prevent adverse events, such as hypo/hyperglycemia. With the increasing availability of data, deep learning (DL) algorithms have emerged as the state-of-the-art for BG forecasting, owing to their ability to autonomously learn complex nonlinear relationships, such as those underlying the glucoregulatory system. Despite a growing body of research, a comprehensive review specifically focusing on DL applications for BG prediction is still lacking. To address this gap, a systematic review was conducted following the PRISMA guidelines, involving extensive searches across PubMed, Scopus, and Web of Science databases. A total of 26 studies satisfied the inclusion criteria and were evaluated based on dataset characteristics, model inputs, training paradigm, prediction horizon, model architecture, evaluation metrics, performance, and baseline comparators. While DL models show great promise, several challenges persist-particularly in ensuring physiological fidelity and interpretability, both essential for clinical adoption. To overcome these barriers, future research should prioritize the integration of explainable AI (XAI) techniques to improve model reliability and safety, ultimately supporting the effective deployment of DL models in real-time T1D management."
+"Research Code Sharing in Support of Gold Standard Science.","https://scispace.com/paper/41532590","2026","Journal Article","Journal of diabetes science and technology","Klonoff
+Espinoza
+Mader
+Heinemann
+Cobelli
+Kerr
+Kovatchev
+Najafi
+Prahalad
+Zheng
+Shao
+Scheideman
+DuNova
+Kohn
+Umpierrez
+Wong
+Abdel Malek
+Agus
+Ahn
+AlSaad
+Al-Sofiani
+Armstrong
+Arnold
+Bee
+Bequette
+Bellazzi
+Cengiz
+Chase
+Chen
+Chen
+Cichosz
+Cinar
+Clements
+Close
+Cuadros
+Contreras
+Datta
+Dhatariya
+Doyle
+Drincic
+Facchinetti
+Fleming
+Foreman
+Gabbay
+Gutierrez-Osuna
+Healey
+Hoang
+Jacobs
+Kulzer
+La Belle
+Lee
+Lee
+Lee
+Liepmann
+Maahs
+Mathioudakis
+Meo
+Metwally
+Misra
+Mohan
+Moon
+Raeder
+Rhee
+Rhee
+Scheinker
+Shah
+Sheng
+Snyder
+Sode
+Spanakis
+Svensson
+Vaswani
+Vareth
+Vehi
+Wallia
+Waki
+Wang
+Williams
+Wolf
+Wong
+Yeshiwas
+Zilbermint
+Shah","10.1177/19322968251391819","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12804059/pdf","Sharing research code in an open access version-controlled repository offers significant benefits for both science as a whole and for individual researchers. In this article, we focus on this practice, which is fully aligned with the NIH's Gold Standard Science (GSS) program as well as FAIR (findable, accessible, interoperable, reusable) and TRUST (transparency, responsibility, user focus, sustainability, technology) principles. Gold Standard Science supports open science by emphasizing transparency, reproducibility, and the use of best practices that enable others to verify and extend research. Pairing a research article's cited data snapshot with a versioned, environment-specific code release, deposited in a companion code repository, ensures that, upon submission to a medical journal, readers and reviewers can directly verify results. An executable and updatable companion code repository complements, rather than replaces, established research data repositories. When code underlying medical research results is made openly available, then other scientists can inspect, run, and validate analyses. These activities enhance reproducibility, which is a core aim of GSS. Shared code also facilitates collaborative innovation by allowing researchers to extend the utility of the code to new datasets and applications. For researchers, code sharing can increase visibility, credibility, and citation impact. Demonstrating transparency through shared executable and updatable code builds trust with journal readers, peer reviewers, funders, and peers. Shared code in an open access repository signals adherence to high standards of scientific integrity and attracts opportunities for collaboration. A researcher who shares code receives recognition as a leader in reproducible, trustworthy research consistent with NIH's GSS principles."
+"Assessing Time Below Range as a Predictor of Severe Hypoglycemia: Insights From Six Clinical Trials.","https://scispace.com/paper/41529164","2026","Journal Article","Diabetes care","Montaser
+Williams
+Shah","10.2337/dc25-2353","","To evaluate whether baseline continuous glucose monitoring (CGM)-derived time below range (TBR) metrics-TBR level 1 (TBR1) (<70 mg/dL) and TBR level 2 (TBR2) (<54 mg/dL)-predicts severe hypoglycemia (SH) during follow-up of individuals with type 1 diabetes."
+"A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management.","https://scispace.com/paper/41524605","2026","Journal Article","Advanced materials (Deerfield Beach, Fla.)","He
+Huang
+Lin
+Cui
+Tian
+Bai
+Liu
+Pang
+Huang
+Lin
+Zhu
+Wang
+Zhang","10.1002/adma.202514945","","Effective blood glucose management is an increasing demand worldwide. Traditional solutions separate glucose detection and insulin delivery, which is less efficient compared to emerging closed-loop wearable systems controlled by continuous glucose monitors (CGMs). However, CGM-controlled systems raise new safety risks, as false CGMs readings can cause insulin overdose, which results in hypoglycemia and fatal consequences. This work proposes a concept of a dual closed-loop insulin delivery system (DuoLoop) to mitigate the risk issue of CGM-controlled systems. The first closed-loop is automated insulin delivery controlled by CGM. The second closed-loop is the controlled release of glucose-responsive insulin (GRI), whose release rate depends on actual glucose levels. A customized algorithm is trained and embedded into the wearable CGMs for edge computing. The DuoLoop system shows improved safety in preliminary in vivo test (longer normoglycemia durations, 98.82% vs 92.10%), encouraging its deployment toward precision diabetes care."
+"Impact of Age ≥75 Years on Glycemic Outcomes after isCGM Initiation in Type 2 Diabetes: Evidence against Ageism in a Universal-Coverage System.","https://scispace.com/paper/41513087","2026","Journal Article","Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists","Hernando-Alday
+Jimenez-Diaz
+Sager-La Ganga
+Hierro
+Enriquez
+Barrena
+Gamazo
+Lander-Lobariñas
+Tapia-Sanchiz
+Carrera
+Martínez-Alfonso
+Arranz-Martín
+Navas-Moreno
+Martinez-Icaya
+Marazuela
+Sebastian-Valles","10.1016/j.eprac.2025.12.023","","To assess whether adults aged ≥75 years with type 2 diabetes (T2D) treated with multiple daily insulin injections (MDI) achieve glycemic improvements comparable to younger adults after initiation of intermittently scanned continuous glucose monitoring (isCGM) within a universal-coverage health system."
+"Association between continuous glucose monitoring-derived metrics and coronary plaque vulnerability: A retrospective exploratory analysis.","https://scispace.com/paper/41537426","2026","Journal Article","eLife","Sugimoto
+Hironaka
+Yamada
+Otowa-Suematsu
+Hirota
+Otake
+Hirata
+Sakaguchi
+Ogawa
+Kuroda","10.7554/eLife.102860","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12807456/pdf","Impaired glucose homeostasis leads to numerous complications, with coronary artery disease (CAD) being a major contributor to healthcare costs worldwide. Because continuous glucose monitoring (CGM) captures multidimensional features of glucose regulation beyond average glycemia, we evaluated whether CGM-derived indices better predict coronary plaque vulnerability than conventional measures."
+"[Associations of metabolic memory burden with chronic complication in type 1 diabetes: a baseline study of the PS-LT1D cohort].","https://scispace.com/paper/41506736","2026","Journal Article","Zhonghua nei ke za zhi","Tang
+Zhang
+Shi
+Ji
+Fan
+Li","10.3760/cma.j.cn112138-20250922-00566","",""
+"Assessment of Blood Glucose Measurement Using New Noninvasive Technology: Protocol and Methodology.","https://scispace.com/paper/41505712","2026","Journal Article","JMIR research protocols","Suradji
+Dhaliwal
+Li-Feng
+Zhou
+Lim
+Wong
+Du
+Fredicia
+Dianky
+Pasaribu
+Masayoshi Takashi
+Tan
+Santoso
+Ang","10.2196/76558","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12782458/pdf","Diabetes mellitus (DM) is a major noncommunicable disease with a significant increase in prevalence, especially in low- and middle-income countries. The latest International Diabetes Federation Diabetes Atlas (2025) reports that 11.1% of the adult population (20 to 79 years old) is living with diabetes, with over 4 in 10 unaware of their condition. Early diagnosis and treatment of diabetes reduce the risk and slow the progression of debilitating complications, such as amputation, vision loss, renal failure, cardiovascular disease, dementia, some cancers, and infections like tuberculosis and severe COVID-19. Current screening methods for diabetes are invasive and costly. This has limited their utilization, especially in high-density populations and low- and middle-income countries such as Indonesia. Blood Glucose Evaluation and Monitoring (BGEM) is a machine learning algorithm developed by Actxa to analyze photoplethysmography data from wearable devices for diabetic risk assessment. Its noninvasive and user-friendly nature makes it a strong candidate for fulfilling the need for a diabetes screening or monitoring tool."
+"Integrated biomarker analysis and next-generation AI for precision diabetes prediction.","https://scispace.com/paper/41503444","2026","Journal Article","Toxicological research","Sim
+Ha
+Kim","10.1007/s43188-025-00312-0","https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12770190/pdf","This study explored the integration of advanced deep learning with key pharmaceutical biomarkers to enhance early diabetes prediction. We developed a multimodal ensemble approach that leverages transformer architectures to capture complex dependencies in heterogeneous healthcare data and Diffusion Models to address class imbalances by generating synthetic samples. Our research utilized diverse data sources, including electronic health records, medical imaging, and wearable device time-series data, supplemented with synthetic samples to better represent minority populations such as patients with type 1 and gestational diabetes. Critical biomarkers, including C-peptide, insulin, and hemoglobin A1c, were incorporated to improve model interpretability. The methodology involved extensive evaluation using accuracy, area under the receiver operating characteristic (ROC) curve (AUC), precision, recall, and F1-score, with cross-validation to mitigate overfitting. We also implemented interpretability features to provide clinicians with insight into the significance of biomarkers. Results showed a 6.2% improvement in minority class recall when pharmaceutical biomarkers were combined with diffusion-based augmentation. The model demonstrated enhanced classification stability and provided clear insights into clinical decision-making, highlighting the influence of biomarkers on disease progression and treatment outcomes. Future work will focus on multicenter validation, integration of additional omics data, and specialized validation across diverse populations. These findings underscore the potential of AI-driven biomarker analysis for advancing early diagnosis and personalized diabetes management, with broader implications for chronic disease prediction."
+"Functional and morphological characterization of coronary atherosclerosis.","https://scispace.com/paper/41500086","2025","Journal Article","Atherosclerosis","Sakai
+Shinke
+Ali
+Mizukami
+Matsuo
+Ando
+Amano
+Engstrøm
+Sonck
+Wilgenhof
+Perera
+Nakayama
+Fearon
+Ko
+Escaned
+Munhoz
+Bouisset
+Ikeda
+Arai
+Korngold
+Christiansen
+Berry
+De Bruyne
+Johnson
+Collet","10.1016/j.atherosclerosis.2025.120632","","The interplay between coronary artery hemodynamics and atherosclerotic plaque is not fully understood. The Pullback Pressure Gradient (PPG), a novel physiological metric, categorizes coronary artery disease (CAD) into focal or diffuse patterns based on coronary physiology."
