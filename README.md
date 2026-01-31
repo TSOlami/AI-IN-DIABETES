@@ -11,7 +11,7 @@ This comprehensive literature review examines AI/ML challenges in multimodal dia
 - Model generalization, bias, fairness, and interpretability
 - Deployment challenges in low-resource settings
 
-## Files Generated
+## Files
 
 ### Main Document
 - `main.pdf` - Final compiled PDF (14 pages, IEEE two-column format)
@@ -49,17 +49,9 @@ This comprehensive literature review examines AI/ML challenges in multimodal dia
 
 To recompile the document:
 ```bash
-cd /home/sandbox
 pdflatex main.tex
 bibtex main
 pdflatex main.tex
 pdflatex main.tex
 ```
 
-## Document Statistics
-- Total pages: 14
-- Word count: ~9,000 words
-- References: 21 citations
-- Sections: 9 main sections
-- Tables: 1 comprehensive comparison table
-- Figures: 1 conceptual framework diagram
