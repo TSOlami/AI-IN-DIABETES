@@ -1,58 +1,44 @@
 \section{Open Research Gaps and Future Directions}
 
-The challenges documented in this review point toward specific research priorities. Addressing generalization, bias, interpretability, and deployment barriers will require advances in methods, data infrastructure, clinical validation, and policy. This section outlines the most pressing gaps and promising directions for future work.
+The challenges above point to specific research priorities in methods, data, validation, and policy.
 
 \subsection{Methodological Advances}
 
 \subsubsection{Robust and Generalizable Models}
 
-Current models fail when conditions differ from training, and fixing this requires new approaches. Domain adaptation techniques that explicitly account for differences between source and target environments show promise but remain underexplored in diabetes applications \cite{fahmy2025exploring, chen2024crossmodality}. Meta-learning, which trains models to adapt quickly with minimal new data, could help systems adjust to new populations or devices without extensive retraining \cite{zhu2021deep}.
-
-Causal inference methods offer another path forward. Models that learn causal relationships rather than mere correlations should generalize better because the underlying biology does not change across settings \cite{oikonomou2023machine, jacobs2023artificial}. However, applying causal methods to high-dimensional time series and images remains technically challenging. Developing practical causal approaches for multimodal diabetes data represents a significant research opportunity.
+Domain adaptation that accounts for source–target differences shows promise but is underexplored in diabetes \cite{fahmy2025exploring, chen2024crossmodality}; meta-learning could enable adaptation with minimal new data \cite{zhu2021deep}. Causal inference may improve generalization \cite{oikonomou2023machine, jacobs2023artificial} but applying it to high-dimensional time series and images remains challenging.
 
 \subsubsection{Fairness-Aware Learning}
 
-Addressing bias requires moving beyond after-the-fact audits to building fairness into model training from the start \cite{fahmy2025exploring, wang2024ai}. Algorithms that optimize for equalized performance across demographic groups exist but involve trade-offs: improving fairness for one group may reduce overall accuracy or harm another group \cite{fahmy2025exploring}. Choosing which trade-offs are acceptable is not purely technical; it requires input from ethicists, clinicians, and affected communities \cite{mackenzie2023diabetes, liu2025scoping}.
-
-Intersectional fairness poses additional challenges. A model might perform well for women on average and for Black patients on average while still failing Black women specifically \cite{wang2024ai, haider2024algorithmic}. Ensuring fairness across all combinations of demographic attributes requires methods that do not yet exist and datasets large enough to assess performance in small subgroups.
+Fairness-aware training \cite{fahmy2025exploring, wang2024ai} involves trade-offs (e.g., improving one group may harm another \cite{fahmy2025exploring}); choosing acceptable trade-offs requires ethicists, clinicians, and communities \cite{mackenzie2023diabetes, liu2025scoping}. Intersectional fairness is harder: a model can do well for women and for Black patients on average yet fail for Black women \cite{wang2024ai, haider2024algorithmic}, and methods and data for small subgroups are lacking.
 
 \subsubsection{Uncertainty Quantification and Calibration}
 
-Clinicians need to know not just what a model predicts but how confident it is. Bayesian deep learning, ensemble methods, and conformal prediction can provide uncertainty estimates, but their application to diabetes AI remains limited \cite{contreras2018artificial, han2024gluensemble, chadaga2024interpretable}. Calibration, ensuring that when a model says "80\% probability" the event actually happens 80\% of the time, is often poor, especially for rare events and unusual patients \cite{wang2024ai, liu2025scoping}.
-
-Critically, models should become more uncertain when they encounter data unlike their training set. A glucose prediction model applied to a patient population it has never seen should express that uncertainty rather than making confident but wrong predictions \cite{prioleau2025deep, jacobs2023artificial}. Developing reliable uncertainty quantification under distribution shift is essential for safe deployment.
+Uncertainty quantification (Bayesian deep learning, ensembles, conformal prediction) remains limited in diabetes AI \cite{contreras2018artificial, han2024gluensemble, chadaga2024interpretable}; calibration is often poor for rare events and unusual patients \cite{wang2024ai, liu2025scoping}. Models should express greater uncertainty on out-of-distribution data \cite{prioleau2025deep, jacobs2023artificial}; reliable quantification under shift is essential for safe deployment.
 
 \subsubsection{Interpretable and Explainable AI}
 
-Post-hoc explanations have limitations; building models that are interpretable by design may be more effective. Neural additive models, concept bottleneck models, and prototype-based approaches offer transparency while maintaining reasonable accuracy \cite{alam2024machine, bhati2024interpretable}. Hybrid architectures that combine interpretable modules with powerful but opaque components represent another promising direction \cite{zhu2021deep}.
-
-The field needs standardized ways to measure interpretability and human-centered studies that assess whether explanations actually help clinicians make better decisions \cite{mackenzie2023diabetes, jacobs2023artificial}. Explanations that look good to researchers may not help busy physicians; rigorous evaluation with real users is essential.
+Interpretable-by-design models (neural additive, concept bottleneck, prototype-based) and hybrid interpretable–opaque architectures are promising \cite{alam2024machine, bhati2024interpretable, zhu2021deep}. The field needs standardized interpretability metrics and human-centered studies of whether explanations help clinicians \cite{mackenzie2023diabetes, jacobs2023artificial}.
 
 \subsection{Data and Infrastructure}
 
 \subsubsection{Diverse and Representative Datasets}
 
-The lack of diverse training data is a root cause of many problems documented in this review. Coordinated efforts to collect data from underrepresented populations, multiple device types, and varied clinical settings are essential \cite{wang2024ai, prioleau2025deep, bai2024federated}. This requires addressing barriers related to privacy, consent, institutional policies, and research funding priorities \cite{mackenzie2023diabetes}.
-
-Federated learning enables collaboration without centralizing sensitive data, potentially allowing institutions worldwide to contribute to model training while keeping patient information local \cite{bai2024federated, fahmy2025exploring, raj2024federated}. Technical challenges around communication efficiency, heterogeneous data, and ensuring fairness across participating sites require further research \cite{fahmy2025exploring}.
+Diverse training data from underrepresented populations, multiple devices, and varied settings is essential \cite{wang2024ai, prioleau2025deep, bai2024federated} and requires addressing privacy, consent, and funding barriers \cite{mackenzie2023diabetes}. Federated learning can enable global collaboration without centralizing data \cite{bai2024federated, fahmy2025exploring, raj2024federated}; challenges in efficiency, heterogeneity, and fairness across sites need further work \cite{fahmy2025exploring}.
 
 \subsubsection{Standardized Benchmarks and Evaluation Protocols}
 
-Without agreed-upon benchmarks, comparing methods is nearly impossible. The field needs community-endorsed datasets with fixed train-test splits, standard metrics, and required reporting elements \cite{prioleau2025deep, jacobs2023artificial}. These benchmarks must include diverse populations and require evaluation beyond aggregate accuracy: subgroup analysis, calibration assessment, robustness testing, and computational efficiency \cite{wang2024ai, prioleau2025deep}.
-
-Mandatory reporting of demographic characteristics, preprocessing details, and hyperparameters would make research more reproducible and allow readers to assess whether results might apply to their own settings \cite{prioleau2025deep}.
+The field needs agreed benchmarks with fixed splits, standard metrics, and required reporting—including diverse populations and evaluation beyond aggregate accuracy (subgroups, calibration, robustness) \cite{prioleau2025deep, jacobs2023artificial, wang2024ai}. Mandatory reporting of demographics, preprocessing, and hyperparameters would improve reproducibility \cite{prioleau2025deep}.
 
 \subsection{Clinical Translation and Implementation}
 
 \subsubsection{Prospective Clinical Trials}
 
-Most diabetes AI research uses historical data and retrospective analysis. Demonstrating that AI actually improves patient outcomes requires prospective trials \cite{mackenzie2023diabetes, fahmy2025exploring}. The ACCESS trial by Wolf et al. \cite{wolf2024access} showed that autonomous AI screening increased diabetic retinopathy detection and follow-up in youth, providing a model for how such evidence can be generated.
-
-Trials must extend beyond well-resourced academic centers to include diverse clinical settings, including low-resource environments where evidence of benefit is most needed \cite{ghosh2025artificial, mackenzie2023diabetes}. Pragmatic designs that evaluate effectiveness in routine practice, rather than efficacy under ideal conditions, are particularly valuable for guiding implementation decisions \cite{guan2023artificial}.
+Most work is retrospective; prospective trials are needed to show AI improves outcomes \cite{mackenzie2023diabetes, fahmy2025exploring}. Wolf et al.'s ACCESS trial \cite{wolf2024access} demonstrated one model. Trials should include diverse and low-resource settings \cite{ghosh2025artificial, mackenzie2023diabetes}; pragmatic effectiveness designs are valuable for implementation \cite{guan2023artificial}.
 
 \subsubsection{Human-AI Collaboration}
 
-How should clinicians and AI systems work together? This fundamental question remains poorly understood \cite{mackenzie2023diabetes, jacobs2023artificial}. Research should examine interface design, workflow integration, and the circumstances under which clinicians should override AI recommendations. Maintaining clinical skills when decision support is available, presenting uncertainty information effectively, and preserving physician autonomy are all critical issues \cite{jacobs2023artificial}.
+Human–AI collaboration—interface design, workflow, when to override, preserving skills and autonomy—remains poorly understood \cite{mackenzie2023diabetes, jacobs2023artificial}.
 
 \subsubsection{Health Economics and Cost-Effectiveness}
 
@@ -72,20 +58,18 @@ Enabling research while protecting patients requires better governance framework
 
 \subsection{Education and Capacity Building}
 
-Integrating AI education into medical and nursing curricula will build the workforce needed to develop, evaluate, and deploy these systems \cite{mackenzie2023diabetes, bahmani2025achieving}. Bahmani et al. \cite{bahmani2025achieving} propose frameworks that integrate education, research, and clinical practice to democratize AI knowledge. This approach recognizes that achieving equitable AI-driven care requires not just technical advances but also trained people and strong institutions.
-
-Capacity building must extend to low- and middle-income countries, where technical expertise is most limited but the need for AI-driven solutions is greatest \cite{ghosh2025artificial, fahmy2025exploring}. International partnerships and investment in local research infrastructure can support development and validation of AI systems adapted to local contexts \cite{mackenzie2023diabetes}.
+AI education in curricula and capacity building in LMICs—where need is greatest and expertise most limited—are essential \cite{mackenzie2023diabetes, bahmani2025achieving, ghosh2025artificial, fahmy2025exploring}. Bahmani et al. \cite{bahmani2025achieving} propose integrating education, research, and practice; international partnerships can support local development and validation \cite{mackenzie2023diabetes}.
 
 \subsection{Emerging Technologies}
 
 \subsubsection{Digital Twins and Personalized Simulation}
 
-Digital twin technology creates virtual representations of individual patients for predictive modeling and treatment optimization \cite{cappon2024digital}. By integrating CGM data, wearable signals, and clinical history, digital twins could simulate responses to different treatments and optimize insulin dosing. Challenges around validation, implementation, and ensuring these approaches work for diverse populations require further research.
+Digital twins create virtual patient representations for prediction and treatment optimization \cite{cappon2024digital}; integrating CGM, wearables, and clinical history could enable simulated treatment response and dosing optimization. Validation and generalization to diverse populations need further work.
 
 \subsubsection{Large Language Models}
 
-Large language models offer potential for patient education, self-management support, and clinical documentation \cite{mackenzie2023diabetes, li2024integrated}. They could provide personalized health information in settings with limited healthcare workers \cite{ghosh2025artificial}. However, concerns about accuracy, bias, and harmful recommendations necessitate careful validation before clinical deployment \cite{mackenzie2023diabetes}.
+Large language models could support education, self-management, and documentation, especially where healthcare workers are scarce \cite{mackenzie2023diabetes, li2024integrated, ghosh2025artificial}; accuracy, bias, and safety require careful validation before deployment \cite{mackenzie2023diabetes}.
 
 \subsubsection{Advanced Sensors}
 
-Non-invasive glucose monitoring, multi-analyte sensing, and implantable devices promise to expand continuous monitoring capabilities \cite{alhaddad2022sense, rodriguez2023applications}. Integration with AI for real-time analysis could enable closed-loop systems that adjust treatment automatically. Accuracy, calibration, biocompatibility, and cost remain barriers to widespread adoption \cite{alhaddad2022sense, mackenzie2023diabetes}.
+Non-invasive and multi-analyte sensors could expand continuous monitoring and enable AI-driven closed-loop systems \cite{alhaddad2022sense, rodriguez2023applications}; accuracy, calibration, biocompatibility, and cost remain barriers \cite{alhaddad2022sense, mackenzie2023diabetes}.
